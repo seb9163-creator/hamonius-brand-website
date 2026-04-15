@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>hamonius — Handled to the End</title>
+<meta name="description" content="하모니어스는 프로젝트의 공백을 메우고, 전 과정을 끝까지 완성하는 실행 파트너입니다." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ========== NAV ========== -->
+<header class="nav" id="nav">
+  <div class="container nav-inner">
+    <!-- 워드마크 (흰색 반전 처리) -->
+    <a href="#top" class="logo-wrap">
+      <img src="assets/logo/wordmark-black.png" alt="hamonius" class="logo-img" />
+    </a>
+    <nav class="nav-menu">
+      <a href="#philosophy">Philosophy</a>
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#message">Message</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn-pill">Start a Project →</a>
+  </div>
+</header>
+
+<!-- ========== ① HERO ========== -->
+<section id="top" class="hero">
+  <!-- Hero media: 추후 <video> 태그로 교체 가능
+       <video src="assets/video/hero.mp4" autoplay muted loop playsinline poster="assets/video/hero-poster.jpg"></video>
+  -->
+  <div class="hero-canvas">
+    <!-- Mesh Gradient Base -->
+    <div class="mg-base"></div>
+    <!-- Aceternity-style animated orbs (hamonius 브랜드 컬러) -->
+    <div class="mg-orbs">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+      <div class="orb orb-4"></div>
+      <div class="orb orb-5"></div>
+    </div>
+    <!-- 그리드 오버레이 -->
+    <span class="grid-overlay"></span>
+    <!-- 심볼 워터마크 -->
+    <img src="assets/logo/symbol-black.png" alt="" class="hero-symbol-bg" aria-hidden="true" />
+  </div>
+  <div class="container hero-inner">
+    <span class="eyebrow">— Brand of Execution</span>
+    <h1 class="display">
+      Handled<br/>
+      to the <span class="accent-blue">End</span><span class="dot-yellow">.</span>
+    </h1>
+    <p class="hero-sub">
+      끝까지 맡아 완성합니다.<br/>
+      <span class="muted">We take responsibility for the work behind the work.</span>
+    </p>
+    <div class="hero-cta">
+      <a href="#services" class="btn-primary">서비스 살펴보기</a>
+      <a href="#contact" class="btn-ghost">프로젝트 의뢰 →</a>
+    </div>
+  </div>
+  <div class="hero-meta container">
+    <div><span class="meta-num">01</span><strong>EVENT</strong><span>행사 실행</span></div>
+    <div><span class="meta-num">02</span><strong>DESIGN</strong><span>실무형 디자인</span></div>
+    <div><span class="meta-num">03</span><strong>CONTENT</strong><span>콘텐츠 제작</span></div>
+  </div>
+  <div class="scroll-hint"><span></span>SCROLL</div>
+</section>
+
+<!-- ========== ② PHILOSOPHY ========== -->
+<section id="philosophy" class="philosophy reveal">
+  <div class="container">
+    <div class="philosophy-top">
+      <span class="section-tag">Philosophy</span>
+      <!-- 심볼 컬러 버전 (흰 배경 pill 컨테이너에 담아 포인트로) -->
+      <div class="symbol-badge">
+        <img src="assets/logo/symbol-color.png" alt="hamonius symbol" />
+      </div>
+    </div>
+    <div class="philosophy-stage">
+      <div class="ph-line ph-step01">
+        <span class="num">START</span>
+        <h2>시작은 누구나 합니다.</h2>
+      </div>
+      <div class="ph-arrow">↓</div>
+      <div class="ph-line ph-step02">
+        <span class="num">FINISH</span>
+        <h2>완성까지 가는 팀은 <em>드뭅니다</em>.</h2>
+      </div>
+    </div>
+    <p class="philosophy-desc">
+      하모니어스는 시작한 일을 끝까지 책임지는 팀입니다.<br/>
+      보이지 않는 과정 — 정리, 조율, 대응, 디테일까지 감당합니다.
+    </p>
+  </div>
+</section>
+
+<!-- ========== ③ SERVICES ========== -->
+<section id="services" class="services reveal">
+  <div class="container">
+    <div class="services-head">
+      <div>
+        <span class="section-tag">Services</span>
+        <h2>행사부터 디자인, 콘텐츠까지<br/>한 흐름으로 <em>완성</em>합니다.</h2>
+      </div>
+      <p class="services-desc">
+        세 영역을 분리하지 않고 하나의 프로젝트로 운영합니다.
+        실무 공백을 메우는 일이 우리의 출발점입니다.
+      </p>
+    </div>
+    <div class="service-grid">
+      <article class="service-card">
+        <div class="num">01</div>
+        <h3>행사 실행</h3>
+        <p>기획, 운영, 현장 대응까지. 행사 전·중·후의 모든 실무를 책임지고 진행합니다.</p>
+        <ul>
+          <li>기획 및 운영 설계</li>
+          <li>현장 디렉팅 / 진행</li>
+          <li>협력사 조율 및 대응</li>
+        </ul>
+        <a href="#contact" class="card-link">문의하기 →</a>
+      </article>
+
+      <!-- Featured 카드: 심볼 컬러 버전 + 브랜드 메인 배경 -->
+      <article class="service-card featured">
+        <div class="featured-symbol">
+          <img src="assets/logo/symbol-color.png" alt="hamonius" />
+        </div>
+        <div class="num">02</div>
+        <h3>실무형 디자인</h3>
+        <p>보기 좋은 디자인을 넘어, 실제로 사용 가능한 디자인. 현장과 실무에 맞는 결과물을 제공합니다.</p>
+        <ul>
+          <li>브랜드 / 그래픽 디자인</li>
+          <li>인쇄·출력물 / 사이니지</li>
+          <li>편집·자료 디자인</li>
+        </ul>
+        <a href="#contact" class="card-link">문의하기 →</a>
+      </article>
+
+      <article class="service-card">
+        <div class="num">03</div>
+        <h3>콘텐츠 제작</h3>
+        <p>메시지를 정리하고, 보이는 결과로 연결합니다. 영상·이미지·문서까지 일관된 콘텐츠를 만듭니다.</p>
+        <ul>
+          <li>영상 / 모션 제작</li>
+          <li>사진 / 이미지 콘텐츠</li>
+          <li>문서·아카이브 콘텐츠</li>
+        </ul>
+        <a href="#contact" class="card-link">문의하기 →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ========== ④ WORK ========== -->
+<section id="work" class="work reveal">
+  <div class="container">
+    <div class="work-head">
+      <span class="section-tag">Selected Work</span>
+      <h2>완성된 결과로 <em>증명</em>합니다.</h2>
+    </div>
+    <div class="work-grid">
+
+      <!-- 01 NEXTTK WEEK — Graduation -->
+      <a class="work-item" href="#">
+        <div class="thumb thumb-img">
+          <img src="assets/work/nexttk-graduation.png" alt="2023 NEXTTK WEEK Graduation" />
+          <span class="tag">EVENT</span>
+        </div>
+        <div class="meta">
+          <strong>2023 NEXTTK WEEK</strong>
+          <span>2023 · Google × NC Ventures · Event Direction</span>
+        </div>
+      </a>
+
+      <!-- 02 NEXTTK WEEK — Conference Hall -->
+      <a class="work-item" href="#">
+        <div class="thumb thumb-img">
+          <img src="assets/work/nexttk-hall.png" alt="2023 NEXTTK WEEK Conference" />
+          <span class="tag">EVENT</span>
+        </div>
+        <div class="meta">
+          <strong>NEXTTK WEEK — Conference</strong>
+          <span>2023 · Full Event Operation</span>
+        </div>
+      </a>
+
+      <!-- 03 Ocean Tech Korea -->
+      <a class="work-item" href="#">
+        <div class="thumb thumb-img">
+          <img src="assets/work/oceantech.png" alt="2024 Ocean Tech Korea" />
+          <span class="tag">CONTENT</span>
+        </div>
+        <div class="meta">
+          <strong>2024 Ocean Tech Korea</strong>
+          <span>2024 · Brand Film · Video Production</span>
+        </div>
+      </a>
+
+      <!-- 04 IP-Connect Conference -->
+      <a class="work-item" href="#">
+        <div class="thumb thumb-img">
+          <img src="assets/work/ipconnect.png" alt="2024 콘텐츠 IP-Connect 컨퍼런스" />
+          <span class="tag">EVENT</span>
+        </div>
+        <div class="meta">
+          <strong>콘텐츠 IP-Connect 컨퍼런스</strong>
+          <span>2024 · 부산콘텐츠비즈타운 개소식 · Event + Content</span>
+        </div>
+      </a>
+
+      <!-- 05 Smart Port Logistics -->
+      <a class="work-item" href="#">
+        <div class="thumb thumb-img">
+          <img src="assets/work/smartport.png" alt="2024 스마트항만물류사업단" />
+          <span class="tag">CONTENT</span>
+        </div>
+        <div class="meta">
+          <strong>스마트항만물류사업단</strong>
+          <span>2024 · 성과공유회 영상 · Video Production</span>
+        </div>
+      </a>
+
+      <!-- 06 NEXTTK WEEK — Group -->
+      <a class="work-item" href="#">
+        <div class="thumb thumb-img">
+          <img src="assets/work/nexttk-group.png" alt="2023 NEXTTK WEEK Group" />
+          <span class="tag">EVENT</span>
+        </div>
+        <div class="meta">
+          <strong>NEXTTK WEEK — Closing</strong>
+          <span>2023 · End-to-End · Event Management</span>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== ⑤ CORE MESSAGE ========== -->
+<section id="message" class="message reveal">
+  <div class="container">
+    <span class="section-tag light">Core Message</span>
+    <h2 class="message-title">시작보다 <span class="accent-yellow">완성</span>이 중요합니다.</h2>
+    <div class="message-grid">
+      <div class="msg-card"><span>01</span><p>중간에 손을 떼지 않는다.</p></div>
+      <div class="msg-card"><span>02</span><p>공백 없이 끝까지 간다.</p></div>
+      <div class="msg-card"><span>03</span><p>시작보다 완성이 중요하다.</p></div>
+      <div class="msg-card"><span>04</span><p>책임 범위는 결과가 나오는 지점까지다.</p></div>
+      <div class="msg-card"><span>05</span><p>결과 뒤의 실무를 감당한다.</p></div>
+      <div class="msg-card"><span>06</span><p>클라이언트가 직접 붙들고 있지 않아도 된다.</p></div>
+      <div class="msg-card"><span>07</span><p>보이지 않는 곳에서 완성도를 만든다.</p></div>
+      <div class="msg-card highlight">
+        <span>08</span>
+        <p>뒤의 일을 제대로 처리하는 능력,<br/>그것이 우리의 차별점이다.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== ⑥ CLIENTS ========== -->
+<section class="clients reveal">
+  <div class="container">
+    <span class="section-tag">Clients &amp; Partners</span>
+    <h3 class="clients-title">함께한 브랜드와 조직</h3>
+  </div>
+  <div class="logo-loop">
+    <div class="logo-track">
+      <span>BRAND·ONE</span><span>STUDIO·NORTH</span><span>FORM&amp;CO</span>
+      <span>NOVA GROUP</span><span>METRIX</span><span>OBJECT LAB</span>
+      <span>HALF·DONE</span><span>SUNBI</span>
+      <span>BRAND·ONE</span><span>STUDIO·NORTH</span><span>FORM&amp;CO</span>
+      <span>NOVA GROUP</span><span>METRIX</span><span>OBJECT LAB</span>
+      <span>HALF·DONE</span><span>SUNBI</span>
+    </div>
+  </div>
+  <div class="logo-loop reverse">
+    <div class="logo-track">
+      <span>ATELIER 03</span><span>KIND/WORKS</span><span>SIGNAL+</span>
+      <span>PROCESS LAB</span><span>UNDERLINE</span><span>QUIET CO.</span>
+      <span>FRAME·SET</span><span>DETAIL OFFICE</span>
+      <span>ATELIER 03</span><span>KIND/WORKS</span><span>SIGNAL+</span>
+      <span>PROCESS LAB</span><span>UNDERLINE</span><span>QUIET CO.</span>
+      <span>FRAME·SET</span><span>DETAIL OFFICE</span>
+    </div>
+  </div>
+</section>
+
+<!-- ========== ⑦ CONTACT CTA ========== -->
+<section id="contact" class="contact reveal">
+  <div class="container contact-inner">
+    <div class="contact-copy">
+      <span class="section-tag light">Contact</span>
+      <h2>당신의 프로젝트,<br/><span class="accent-yellow">끝까지 맡기세요.</span></h2>
+      <p class="contact-sub">시작한 일은 완성될 때까지. 하모니어스가 함께합니다.</p>
+      <ul class="contact-list">
+        <li><strong>EMAIL</strong><a href="mailto:contact@hamonius.com">contact@hamonius.com</a></li>
+        <li><strong>HOURS</strong><span>Mon – Fri · 10:00 – 19:00 KST</span></li>
+      </ul>
+      <!-- 워드마크 흰색 반전 -->
+      <div class="contact-logo">
+        <img src="assets/logo/wordmark-black.png" alt="hamonius" class="logo-img" />
+      </div>
+    </div>
+    <form class="contact-form" id="contactForm">
+      <label>이름 / 회사명
+        <input type="text" required placeholder="홍길동 / hamonius" />
+      </label>
+      <label>이메일
+        <input type="email" required placeholder="you@company.com" />
+      </label>
+      <label>프로젝트 내용
+        <textarea rows="4" required placeholder="어떤 프로젝트인지 간단히 알려주세요."></textarea>
+      </label>
+      <button type="submit" class="btn-primary full">의뢰 보내기 →</button>
+    </form>
+  </div>
+</section>
+
+<!-- ========== ⑧ FOOTER ========== -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="foot-brand">
+      <!-- 워드마크 + 심볼 함께 -->
+      <a href="#top" class="foot-logo-wrap">
+        <img src="assets/logo/symbol-black.png" alt="" class="foot-symbol" aria-hidden="true" />
+        <img src="assets/logo/wordmark-black.png" alt="hamonius" class="foot-wordmark" />
+      </a>
+      <p>Handled to the End.</p>
+    </div>
+    <div class="foot-links">
+      <a href="#philosophy">Philosophy</a>
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="foot-meta">
+      <p>© 2026 hamonius. All rights reserved.</p>
+      <p>contact@hamonius.com</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

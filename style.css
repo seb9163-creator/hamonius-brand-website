@@ -573,7 +573,13 @@ h3{
 /* ===== ⑥ CLIENTS ===== */
 .clients{padding:var(--s-6) 0;background:var(--canvas-black);overflow:hidden}
 .clients-title{font-size:18px;color:var(--text-secondary);font-weight:500;margin-bottom:48px}
-.logo-loop{overflow:hidden;padding:20px 0;border-top:1px solid var(--text-divider)}
+.logo-loop{
+  overflow:hidden;
+  padding:20px 0;
+  border-top:1px solid var(--text-divider);
+  mask-image:linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1) 20%, rgba(0,0,0,1) 80%, rgba(0,0,0,0));
+  -webkit-mask-image:linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1) 20%, rgba(0,0,0,1) 80%, rgba(0,0,0,0));
+}
 .logo-loop:last-of-type{border-bottom:1px solid var(--text-divider)}
 .logo-track{
   display:flex;gap:64px;width:max-content;
@@ -588,6 +594,7 @@ h3{
 .logo-track span:hover{color:var(--brand-point)}
 @keyframes scrollX{from{transform:translateX(0)} to{transform:translateX(-50%)}}
 @keyframes scrollXReverse{from{transform:translateX(-50%)} to{transform:translateX(0)}}
+@keyframes scrollright{to{right:-200px}}
 
 /* ===== ⑦ CONTACT ===== */
 .contact{

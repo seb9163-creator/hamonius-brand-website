@@ -6,8 +6,8 @@
 
 .page--works .site-header {
     padding: 0;
-    background: rgba(0, 0, 0, 0.94);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    background: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
     pointer-events: auto;
 }
 
@@ -28,10 +28,10 @@
     align-self: stretch;
     min-width: 208px;
     padding: 0 26px;
-    background: #f3f3f3;
+    background: #fff;
     display: inline-flex;
     align-items: center;
-    border-right: 1px solid rgba(255, 255, 255, 0.12);
+    border-right: 1px solid rgba(255, 255, 255, 0.16);
 }
 
 .page--works .brand__img--dark {
@@ -57,7 +57,7 @@
     font-weight: 600;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.9);
+    color: #fff;
 }
 
 .page--works .site-nav a {
@@ -76,7 +76,7 @@
     align-self: stretch;
     padding: 0 28px;
     white-space: nowrap;
-    border-left: 1px solid rgba(255, 255, 255, 0.08);
+    border-left: 1px solid rgba(255, 255, 255, 0.16);
 }
 
 .works-grid-section {

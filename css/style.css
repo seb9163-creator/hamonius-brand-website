@@ -121,6 +121,7 @@ body.is-scrolled .site-header__shell {
 
 .brand__img--light {
     display: block;
+    filter: brightness(0) invert(1);
 }
 
 .site-nav {

@@ -81,7 +81,7 @@ body.page--works .site-header__utility {
 }
 
 .works-grid-section {
-    padding: 78px 0 110px;
+    padding: 0 0 110px;
 }
 
 .works-grid-shell {
@@ -313,7 +313,7 @@ body.page--works .site-header__utility {
     }
 
     .works-grid-section {
-        padding: 78px 0 84px;
+        padding: 0 0 84px;
     }
 
     .works-grid-shell {

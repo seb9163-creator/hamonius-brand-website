@@ -115,15 +115,11 @@ body.is-scrolled .site-header__shell {
     width: 116px;
 }
 
+.brand__img--dark {
+    display: none;
+}
+
 .brand__img--light {
-    display: none;
-}
-
-body.theme-dark .brand__img--dark {
-    display: none;
-}
-
-body.theme-dark .brand__img--light {
     display: block;
 }
 

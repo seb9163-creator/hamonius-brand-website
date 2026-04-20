@@ -5,7 +5,7 @@
 }
 
 .works-grid-section {
-    padding: 150px 0 110px;
+    padding: 104px 0 110px;
 }
 
 .works-grid-shell {
@@ -17,8 +17,8 @@
     position: relative;
     overflow: hidden;
     width: 100vw;
-    margin: 0 0 28px calc(50% - 50vw);
-    aspect-ratio: 16 / 7.4;
+    margin: 0 0 24px calc(50% - 50vw);
+    aspect-ratio: 16 / 9;
     background: #050505;
     border-top: 1px solid rgba(255, 255, 255, 0.08);
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
@@ -33,7 +33,8 @@
 .works-hero-media__video {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    object-position: center;
 }
 
 .works-hero-media__veil {
@@ -232,7 +233,7 @@
 
 @media (max-width: 900px) {
     .works-grid-section {
-        padding: 134px 0 84px;
+        padding: 94px 0 84px;
     }
 
     .works-grid-shell {
@@ -240,14 +241,14 @@
     }
 
     .works-hero-media {
-        aspect-ratio: 16 / 8.8;
+        aspect-ratio: 16 / 9;
     }
 }
 
 @media (max-width: 640px) {
     .works-hero-media {
         margin-bottom: 22px;
-        aspect-ratio: 16 / 10.8;
+        aspect-ratio: 16 / 9;
     }
 
     .works-marquee {

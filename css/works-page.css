@@ -88,9 +88,9 @@
 .works-card__thumb {
     position: relative;
     display: block;
-    aspect-ratio: 1.26 / 1;
+    aspect-ratio: 16 / 9;
     overflow: hidden;
-    background: #ececec;
+    background: #000;
 }
 
 .works-card__thumb::after {

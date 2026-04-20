@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Works | hamonius</title>
-    <meta name="description" content="hamonius의 공식 영상 프로젝트 아카이브입니다. 공개 영상 작업을 미니멀한 프로젝트 리스트 형식으로 정리했습니다.">
+    <meta name="description" content="hamonius의 공식 영상 프로젝트 아카이브입니다. 공개 영상 작업을 썸네일 중심의 3열 프로젝트 그리드로 정리했습니다.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&family=Outfit:wght@400;500;700;800&display=swap" rel="stylesheet">
@@ -49,22 +49,32 @@
         </aside>
     </div>
 
-    <main class="works-list-page">
-        <section class="works-list-section">
-            <div class="works-list-shell">
-                <div class="works-list-head reveal-up active">
-                    <h1 class="works-list-title">Projects</h1>
-                    <p class="works-list-subtitle">Archiving our video works 2023</p>
+    <main class="works-grid-page">
+        <section class="works-grid-section">
+            <div class="works-grid-shell">
+                <div class="works-grid-toolbar reveal-up active">
+                    <button class="works-filter-toggle" type="button" aria-expanded="false" aria-controls="works-filter-panel">
+                        Filters +
+                    </button>
+                    <a class="works-channel-link works-channel-link--minimal" href="https://www.youtube.com/@hamonius_official/videos" target="_blank" rel="noreferrer">
+                        YouTube Channel
+                    </a>
                 </div>
 
-                <div class="works-list-archive reveal-up active delay-1">
-                    <div class="works-list-index" id="works-list-index" aria-label="Project archive"></div>
+                <div class="works-filter-panel" id="works-filter-panel" hidden>
+                    <button class="works-filter-chip is-active" type="button" data-filter="all">All</button>
+                    <button class="works-filter-chip" type="button" data-filter="event">Event</button>
+                    <button class="works-filter-chip" type="button" data-filter="content">Content</button>
+                    <button class="works-filter-chip" type="button" data-filter="film">Film</button>
+                    <button class="works-filter-chip" type="button" data-filter="production">Production</button>
                 </div>
+
+                <div class="works-grid" id="works-grid" aria-live="polite"></div>
             </div>
         </section>
     </main>
 
-    <footer class="site-footer works-list-footer">
+    <footer class="site-footer works-grid-footer">
         <div class="site-footer__inner">
             <p class="site-footer__slogan">Handled to the End.</p>
             <p class="site-footer__meta">2026 hamonius. All rights reserved.</p>

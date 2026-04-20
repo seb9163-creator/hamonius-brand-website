@@ -16,7 +16,8 @@
 .works-marquee {
     position: relative;
     overflow: hidden;
-    margin: 0 0 34px;
+    width: 100vw;
+    margin: 0 0 34px calc(50% - 50vw);
     padding: 26px 0 24px;
     border-top: 1px solid rgba(255, 255, 255, 0.28);
     border-bottom: 1px solid rgba(255, 255, 255, 0.28);
@@ -25,8 +26,8 @@
 .works-marquee__track {
     display: flex;
     width: max-content;
-    gap: 44px;
-    animation: works-marquee-scroll 24s linear infinite;
+    gap: 64px;
+    animation: works-marquee-scroll 26s linear infinite;
     will-change: transform;
 }
 

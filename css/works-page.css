@@ -18,27 +18,28 @@
     overflow: hidden;
     width: 100vw;
     margin: 0 0 34px calc(50% - 50vw);
-    padding: 26px 0 24px;
-    border-top: 1px solid rgba(255, 255, 255, 0.28);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.28);
+    padding: 22px 0 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.18);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .works-marquee__track {
     display: flex;
     width: max-content;
-    gap: 64px;
-    animation: works-marquee-scroll 40s linear infinite;
+    gap: 76px;
+    animation: works-marquee-scroll 52s linear infinite;
     will-change: transform;
 }
 
 .works-marquee__track span {
     font-family: "Inter", "Noto Sans KR", sans-serif;
-    font-size: clamp(22px, 2.3vw, 32px);
-    font-weight: 400;
+    font-size: clamp(18px, 1.8vw, 26px);
+    font-weight: 300;
     line-height: 1.05;
-    letter-spacing: 0.01em;
+    letter-spacing: 0.045em;
     white-space: nowrap;
-    color: rgba(255, 255, 255, 0.94);
+    color: rgba(255, 255, 255, 0.9);
+    text-transform: uppercase;
 }
 
 .works-grid-toolbar {
@@ -214,11 +215,11 @@
 @media (max-width: 640px) {
     .works-marquee {
         margin-bottom: 24px;
-        padding: 20px 0 18px;
+        padding: 18px 0 16px;
     }
 
     .works-marquee__track {
-        gap: 28px;
+        gap: 36px;
     }
 
     .works-grid-toolbar {

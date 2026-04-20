@@ -4,27 +4,28 @@
     color: #fff;
 }
 
-.page--works .site-header {
+body.page--works .site-header {
     padding: 0;
     background: transparent;
     border-bottom: 1px solid rgba(255, 255, 255, 0.18);
     pointer-events: auto;
 }
 
-.page--works .site-header__shell {
+body.page--works .site-header__shell {
     width: 100vw;
     max-width: none;
     min-height: 78px;
     margin: 0;
     padding: 0;
     gap: 0;
-    border: 0;
+    border: 0 !important;
     border-radius: 0;
-    background: transparent;
-    backdrop-filter: none;
+    background: transparent !important;
+    box-shadow: none;
+    backdrop-filter: none !important;
 }
 
-.page--works .brand {
+body.page--works .brand {
     align-self: stretch;
     min-width: 208px;
     padding: 0 26px;
@@ -34,24 +35,24 @@
     border-right: 1px solid rgba(255, 255, 255, 0.16);
 }
 
-.page--works .brand__img--dark {
+body.page--works .brand__img--dark {
     display: block;
 }
 
-.page--works .brand__img--light {
+body.page--works .brand__img--light {
     display: none;
 }
 
-.page--works .site-nav {
+body.page--works .site-nav {
     flex: 1;
     justify-content: center;
     gap: 28px;
     padding: 0 28px;
 }
 
-.page--works .site-nav a,
-.page--works .site-header__utility,
-.page--works .menu-toggle {
+body.page--works .site-nav a,
+body.page--works .site-header__utility,
+body.page--works .menu-toggle {
     font-family: "Outfit", "Noto Sans KR", sans-serif;
     font-size: 13px;
     font-weight: 600;
@@ -60,16 +61,16 @@
     color: #fff;
 }
 
-.page--works .site-nav a {
+body.page--works .site-nav a {
     opacity: 1;
 }
 
-.page--works .site-nav a::after {
+body.page--works .site-nav a::after {
     bottom: -23px;
     height: 2px;
 }
 
-.page--works .site-header__utility {
+body.page--works .site-header__utility {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -307,7 +308,7 @@
 }
 
 @media (max-width: 900px) {
-    .page--works .site-header__utility {
+    body.page--works .site-header__utility {
         display: none;
     }
 
@@ -325,7 +326,7 @@
 }
 
 @media (max-width: 640px) {
-    .page--works .brand {
+    body.page--works .brand {
         min-width: 164px;
         padding: 0 18px;
     }

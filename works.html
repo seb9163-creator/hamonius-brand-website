@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Works | hamonius</title>
-    <meta name="description" content="hamonius의 공식 영상 포트폴리오 아카이브입니다. 이벤트, 콘텐츠, 필름, 프로덕션 작업을 깔끔한 카드형 레이아웃으로 살펴볼 수 있습니다.">
+    <meta name="description" content="hamonius의 공식 영상 프로젝트 아카이브입니다. 공개 영상 작업을 미니멀한 프로젝트 리스트 형식으로 정리했습니다.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&family=Outfit:wght@400;500;700;800&display=swap" rel="stylesheet">
@@ -49,37 +49,22 @@
         </aside>
     </div>
 
-    <main>
-        <section class="page-hero page-hero--light works-hero">
-            <div class="container page-hero__inner works-hero__inner">
-                <p class="section-kicker reveal-up active">Works</p>
-                <h1 class="page-title reveal-up active delay-1">공식 영상 아카이브</h1>
-            </div>
-        </section>
-
-        <section class="section section--cream works-archive">
-            <div class="container">
-                <div class="works-toolbar reveal-up">
-                    <p class="works-toolbar__label">hamonius official channel</p>
-                    <a href="https://www.youtube.com/@hamonius_official/videos" target="_blank" rel="noreferrer" class="works-channel-link">
-                        Visit YouTube Channel
-                    </a>
+    <main class="works-list-page">
+        <section class="works-list-section">
+            <div class="works-list-shell">
+                <div class="works-list-head reveal-up active">
+                    <h1 class="works-list-title">Projects</h1>
+                    <p class="works-list-subtitle">Archiving our video works 2023</p>
                 </div>
 
-                <div class="works-filter-bar works-filter-bar--portfolio reveal-up" aria-label="Work categories">
-                    <button class="works-filter is-active" type="button" data-filter="all">ALL</button>
-                    <button class="works-filter" type="button" data-filter="event">EVENT</button>
-                    <button class="works-filter" type="button" data-filter="content">CONTENT</button>
-                    <button class="works-filter" type="button" data-filter="film">FILM</button>
-                    <button class="works-filter" type="button" data-filter="production">PRODUCTION</button>
+                <div class="works-list-archive reveal-up active delay-1">
+                    <div class="works-list-index" id="works-list-index" aria-label="Project archive"></div>
                 </div>
-
-                <div class="works-portfolio-grid" id="works-portfolio-grid" aria-live="polite"></div>
             </div>
         </section>
     </main>
 
-    <footer class="site-footer">
+    <footer class="site-footer works-list-footer">
         <div class="site-footer__inner">
             <p class="site-footer__slogan">Handled to the End.</p>
             <p class="site-footer__meta">2026 hamonius. All rights reserved.</p>

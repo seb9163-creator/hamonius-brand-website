@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Works | hamonius</title>
+    <meta name="description" content="hamonius의 대표 프로젝트와 케이스 스터디">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700&family=Outfit:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page page--works theme-light" data-page="works">
+    <div class="site-chrome">
+        <header class="site-header">
+            <div class="site-header__shell">
+                <a href="index.html" class="brand" aria-label="hamonius home">
+                    <img class="brand__img brand__img--dark" src="assets/logo/logo-wordmark-black.svg" alt="hamonius">
+                    <img class="brand__img brand__img--light" src="assets/logo/logo-wordmark-white.svg" alt="hamonius">
+                </a>
+                <nav class="site-nav" aria-label="Primary">
+                    <a href="about.html">About</a>
+                    <a href="services.html">Services</a>
+                    <a href="works.html">Works</a>
+                    <a href="perspective.html">Perspective</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+                <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu">
+                    Menu
+                </button>
+            </div>
+        </header>
+
+        <aside class="mobile-menu" id="mobile-menu" aria-hidden="true">
+            <div class="mobile-menu__panel">
+                <div class="mobile-menu__top">
+                    <span class="mobile-menu__label">hamonius</span>
+                    <button class="mobile-menu__close" type="button" aria-label="Close menu">Close</button>
+                </div>
+                <nav class="mobile-menu__nav" aria-label="Mobile primary">
+                    <a href="about.html">About</a>
+                    <a href="services.html">Services</a>
+                    <a href="works.html">Works</a>
+                    <a href="perspective.html">Perspective</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </aside>
+    </div>
+
+    <main>
+        <section class="page-hero page-hero--light">
+            <div class="container page-hero__inner">
+                <p class="section-kicker reveal-up active">Works</p>
+                <h1 class="page-title reveal-up active delay-1">영상 하나하나가 브랜드의 장면이 되도록</h1>
+                <p class="page-desc reveal-up active delay-2">
+                    hamonius가 공식 채널에 업로드한 영상만 선별해 한눈에 볼 수 있도록 구성했습니다.
+                    이벤트, 콘텐츠, 필름, 프로덕션 성격에 따라 바로 탐색할 수 있습니다.
+                </p>
+            </div>
+        </section>
+
+        <section class="section section--cream">
+            <div class="container works-showcase">
+                <div class="section-heading reveal-up">
+                    <div class="works-showcase__head">
+                        <div>
+                            <p class="section-kicker">YouTube Archive</p>
+                            <h2 class="section-title section-title--dark works-showcase__title">공식 채널 영상 아카이브</h2>
+                        </div>
+                        <div class="works-showcase__side">
+                            <p class="works-showcase__meta">
+                                2026년 4월 20일 기준 공식 채널의 공개 영상 33편을 카테고리별로 정리했습니다.
+                                페이지 안에서 바로 재생하고, 원본 채널로도 이동할 수 있습니다.
+                            </p>
+                            <a href="https://www.youtube.com/@hamonius_official/videos" target="_blank" rel="noreferrer" class="works-channel-link">
+                                Visit YouTube Channel
+                            </a>
+                        </div>
+                    </div>
+                    <div class="works-filter-bar" aria-label="Work categories">
+                        <button class="works-filter is-active" type="button" data-filter="all">ALL</button>
+                        <button class="works-filter" type="button" data-filter="event">EVENT</button>
+                        <button class="works-filter" type="button" data-filter="content">CONTENT</button>
+                        <button class="works-filter" type="button" data-filter="film">FILM</button>
+                        <button class="works-filter" type="button" data-filter="production">PRODUCTION</button>
+                    </div>
+                </div>
+
+                <article class="works-featured reveal-up" data-category="event film">
+                    <div class="works-featured__video">
+                        <iframe
+                            src="https://www.youtube.com/embed/5o7vS9vmo9U?rel=0"
+                            title="2023 제5회 KDT 해커톤 오프닝 영상"
+                            loading="lazy"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="works-featured__copy">
+                        <p class="works-featured__index">Featured Work 01</p>
+                        <h3>2023 제5회 KDT 해커톤 | 오프닝 영상</h3>
+                        <p>
+                            행사 무드와 브랜드 인상을 첫 장면부터 선명하게 잡아주는 오프닝 필름입니다.
+                            현재 아카이브 전체를 대표하는 메인 장면으로 배치했습니다.
+                        </p>
+                        <div class="works-badge-list" aria-label="Featured video categories">
+                            <span class="works-badge">Event</span>
+                            <span class="works-badge">Film</span>
+                        </div>
+                        <a class="btn btn--ink" href="https://www.youtube.com/watch?v=5o7vS9vmo9U" target="_blank" rel="noreferrer">
+                            Watch on YouTube
+                        </a>
+                    </div>
+                </article>
+
+                <div class="works-video-grid">
+                    <article class="works-video-card reveal-up" data-category="event content">
+                        <div class="works-video-card__frame">
+                            <iframe
+                                src="https://www.youtube.com/embed/db3W1IQCjZs?rel=0"
+                                title="2023 제5회 KDT 해커톤 인터뷰 영상"
+                                loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="works-video-card__body">
+                            <p class="works-video-card__meta">EVENT / CONTENT</p>
+                            <h3>2023 제5회 KDT 해커톤 | 인터뷰 영상</h3>
+                        </div>
+                    </article>
+
+                    <article class="works-video-card reveal-up" data-category="content film">
+                        <div class="works-video-card__frame">
+                            <iframe
+                                src="https://www.youtube.com/embed/YPwIRMqjNWc?rel=0"
+                                title="2023 B 스타트업 챌린지 수상영상 은상"
+                                loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="works-video-card__body">
+                            <p class="works-video-card__meta">CONTENT / FILM</p>
+                            <h3>2023 B 스타트업 챌린지 | 수상영상_은상</h3>
+                        </div>
+                    </article>
+
+                    <article class="works-video-card reveal-up" data-category="production content">
+                        <div class="works-video-card__frame">
+                            <iframe
+                                src="https://www.youtube.com/embed/1swohx4w7L8?rel=0"
+                                title="2023 BOUNCE 무대 루핑"
+                                loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="works-video-card__body">
+                            <p class="works-video-card__meta">PRODUCTION / CONTENT</p>
+                            <h3>2023 BOUNCE | 무대 루핑</h3>
+                        </div>
+                    </article>
+
+                    <article class="works-video-card reveal-up" data-category="event content">
+                        <div class="works-video-card__frame">
+                            <iframe
+                                src="https://www.youtube.com/embed/iEeb95igTmw?rel=0"
+                                title="2023 제5회 KDT 해커톤 행사스케치"
+                                loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="works-video-card__body">
+                            <p class="works-video-card__meta">EVENT / CONTENT</p>
+                            <h3>2023 제5회 KDT 해커톤 | 행사스케치</h3>
+                        </div>
+                    </article>
+
+                    <article class="works-video-card reveal-up" data-category="event content">
+                        <div class="works-video-card__frame">
+                            <iframe
+                                src="https://www.youtube.com/embed/qgfdiEPqeEM?rel=0"
+                                title="2023 제8회 부산 ICT 해커톤 행사스케치"
+                                loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="works-video-card__body">
+                            <p class="works-video-card__meta">EVENT / CONTENT</p>
+                            <h3>2023 제8회 부산 ICT 해커톤 | 행사스케치</h3>
+                        </div>
+                    </article>
+
+                    <article class="works-video-card reveal-up" data-category="production content">
+                        <div class="works-video-card__frame">
+                            <iframe
+                                src="https://www.youtube.com/embed/_ltESDH4FHg?rel=0"
+                                title="2023 부산워케이션 생태계 포럼 무대 루핑"
+                                loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="works-video-card__body">
+                            <p class="works-video-card__meta">PRODUCTION / CONTENT</p>
+                            <h3>2023 부산워케이션 생태계 포럼 | 무대 루핑</h3>
+                        </div>
+                    </article>
+
+                    <article class="works-video-card reveal-up" data-category="production content">
+                        <div class="works-video-card__frame">
+                            <iframe
+                                src="https://www.youtube.com/embed/0TUEyADnLIA?rel=0"
+                                title="2023 제5회 KDT 해커톤 무대 루핑"
+                                loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="works-video-card__body">
+                            <p class="works-video-card__meta">PRODUCTION / CONTENT</p>
+                            <h3>2023 제5회 KDT 해커톤 | 무대 루핑</h3>
+                        </div>
+                    </article>
+
+                    <article class="works-video-card reveal-up" data-category="content film">
+                        <div class="works-video-card__frame">
+                            <iframe
+                                src="https://www.youtube.com/embed/hMKQPF7rnXY?rel=0"
+                                title="2023 B 스타트업 챌린지 수상영상 대상"
+                                loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="works-video-card__body">
+                            <p class="works-video-card__meta">CONTENT / FILM</p>
+                            <h3>2023 B 스타트업 챌린지 | 수상영상_대상</h3>
+                        </div>
+                    </article>
+
+                    <article class="works-video-card reveal-up" data-category="production content">
+                        <div class="works-video-card__frame">
+                            <iframe
+                                src="https://www.youtube.com/embed/WUwAS4GsZSk?rel=0"
+                                title="2023 B 스타트업 챌린지 무대루핑"
+                                loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="works-video-card__body">
+                            <p class="works-video-card__meta">PRODUCTION / CONTENT</p>
+                            <h3>2023 B 스타트업 챌린지 | 무대루핑</h3>
+                        </div>
+                    </article>
+
+                    <article class="works-video-card reveal-up" data-category="content film">
+                        <div class="works-video-card__frame">
+                            <iframe
+                                src="https://www.youtube.com/embed/E7fNN6LKM-0?rel=0"
+                                title="2023 제5회 KDT 해커톤 홍보 SPOT"
+                                loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="works-video-card__body">
+                            <p class="works-video-card__meta">CONTENT / FILM</p>
+                            <h3>2023 제5회 KDT 해커톤 | 홍보 SPOT</h3>
+                        </div>
+                    </article>
+
+                    <article class="works-video-card reveal-up" data-category="event content">
+                        <div class="works-video-card__frame">
+                            <iframe
+                                src="https://www.youtube.com/embed/BVf9tECXNjw?rel=0"
+                                title="2023 부산워케이션 생태계 포럼 행사스케치"
+                                loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="works-video-card__body">
+                            <p class="works-video-card__meta">EVENT / CONTENT</p>
+                            <h3>2023 부산워케이션 생태계 포럼 | 행사스케치</h3>
+                        </div>
+                    </article>
+
+                    <article class="works-video-card reveal-up" data-category="event content">
+                        <div class="works-video-card__frame">
+                            <iframe
+                                src="https://www.youtube.com/embed/X7_uQPvdtdc?rel=0"
+                                title="2023 부산 SW.AI 교육 중등학생 해커톤 행사스케치"
+                                loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="works-video-card__body">
+                            <p class="works-video-card__meta">EVENT / CONTENT</p>
+                            <h3>2023 부산 SW.AI 교육 중등학생 해커톤 | 행사스케치</h3>
+                        </div>
+                    </article>
+
+                    <article class="works-video-card reveal-up" data-category="content film">
+                        <div class="works-video-card__frame">
+                            <iframe
+                                src="https://www.youtube.com/embed/W1Z1yvto9iM?rel=0"
+                                title="2023 B 스타트업 챌린지 수상영상 특별상"
+                                loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="works-video-card__body">
+                            <p class="works-video-card__meta">CONTENT / FILM</p>
+                            <h3>2023 B 스타트업 챌린지 | 수상영상_특별상</h3>
+                        </div>
+                    </article>
+
+                    <article class="works-video-card reveal-up" data-category="production content">
+                        <div class="works-video-card__frame">
+                            <iframe
+                                src="https://www.youtube.com/embed/x_qAgaMajn4?rel=0"
+                                title="2023 부산글로벌도시포럼 무대루핑"
+                                loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="works-video-card__body">
+                            <p class="works-video-card__meta">PRODUCTION / CONTENT</p>
+                            <h3>2023 부산글로벌도시포럼 | 무대루핑</h3>
+                        </div>
+                    </article>
+
+                    <article class="works-video-card reveal-up" data-category="production content">
+                        <div class="works-video-card__frame">
+                            <iframe
+                                src="https://www.youtube.com/embed/zWgRfMtlglI?rel=0"
+                                title="2023 부산창업가꿈 무대루핑"
+                                loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="works-video-card__body">
+                            <p class="works-video-card__meta">PRODUCTION / CONTENT</p>
+                            <h3>2023 부산창업가꿈 | 무대루핑</h3>
+                        </div>
+                    </article>
+
+                    <article class="works-video-card reveal-up" data-category="event film">
+                        <div class="works-video-card__frame">
+                            <iframe
+                                src="https://www.youtube.com/embed/WdGT_2IjW04?rel=0"
+                                title="2023 부산컨벤션산업협회 오프닝영상"
+                                loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="works-video-card__body">
+                            <p class="works-video-card__meta">EVENT / FILM</p>
+                            <h3>2023 부산컨벤션산업협회 | 오프닝영상</h3>
+                        </div>
+                    </article>
+
+                    <article class="works-video-card reveal-up" data-category="production content">
+                        <div class="works-video-card__frame">
+                            <iframe
+                                src="https://www.youtube.com/embed/YNZcopHD9sY?rel=0"
+                                title="2023 제16회 국제해양심포지엄 무대루핑"
+                                loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="works-video-card__body">
+                            <p class="works-video-card__meta">PRODUCTION / CONTENT</p>
+                            <h3>2023 제16회 국제해양심포지엄 | 무대루핑</h3>
+                        </div>
+                    </article>
+
+                    <article class="works-video-card reveal-up" data-category="content film">
+                        <div class="works-video-card__frame">
+                            <iframe
+                                src="https://www.youtube.com/embed/ZSv_A2xAVJg?rel=0"
+                                title="2023 제4회 KDT 해커톤 수상영상 대상"
+                                loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="works-video-card__body">
+                            <p class="works-video-card__meta">CONTENT / FILM</p>
+                            <h3>2023 제4회 KDT 해커톤 | 수상영상_대상</h3>
+                        </div>
+                    </article>
+
+                    <article class="works-video-card reveal-up" data-category="event content">
+                        <div class="works-video-card__frame">
+                            <iframe
+                                src="https://www.youtube.com/embed/nnKy9vPFRa0?rel=0"
+                                title="2023 부산컨벤션산업협회 스케치 영상"
+                                loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="works-video-card__body">
+                            <p class="works-video-card__meta">EVENT / CONTENT</p>
+                            <h3>2023 부산컨벤션산업협회 | 스케치 영상</h3>
+                        </div>
+                    </article>
+
+                    <article class="works-video-card reveal-up" data-category="event content">
+                        <div class="works-video-card__frame">
+                            <iframe
+                                src="https://www.youtube.com/embed/5pOJaj-5h5M?rel=0"
+                                title="2023 제4회 KDT 해커톤 행사 스케치"
+                                loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="works-video-card__body">
+                            <p class="works-video-card__meta">EVENT / CONTENT</p>
+                            <h3>2023 제4회 KDT 해커톤 | 행사 스케치</h3>
+                        </div>
+                    </article>
+
+                    <article class="works-video-card reveal-up" data-category="production content">
+                        <div class="works-video-card__frame">
+                            <iframe
+                                src="https://www.youtube.com/embed/kTrQpw16lJw?rel=0"
+                                title="2023 부산컨벤션산업협회 회장이취임식 무대루핑"
+                                loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="works-video-card__body">
+                            <p class="works-video-card__meta">PRODUCTION / CONTENT</p>
+                            <h3>2023 부산컨벤션산업협회 회장이취임식 | 무대루핑</h3>
+                        </div>
+                    </article>
+
+                    <article class="works-video-card reveal-up" data-category="content film">
+                        <div class="works-video-card__frame">
+                            <iframe
+                                src="https://www.youtube.com/embed/_CZE8vj9NA0?rel=0"
+                                title="2023 제4회 KDT 해커톤 수상영상 최우수"
+                                loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="works-video-card__body">
+                            <p class="works-video-card__meta">CONTENT / FILM</p>
+                            <h3>2023 제4회 KDT 해커톤 | 수상영상_최우수</h3>
+                        </div>
+                    </article>
+
+                    <article class="works-video-card reveal-up" data-category="content film">
+                        <div class="works-video-card__frame">
+                            <iframe
+                                src="https://www.youtube.com/embed/FrbtOOPtgP4?rel=0"
+                                title="2023 제4회 KDT 해커톤 홍보 SPOT"
+                                loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="works-video-card__body">
+                            <p class="works-video-card__meta">CONTENT / FILM</p>
+                            <h3>2023 제4회 KDT 해커톤 | 홍보 SPOT</h3>
+                        </div>
+                    </article>
+
+                    <article class="works-video-card reveal-up" data-category="production content">
+                        <div class="works-video-card__frame">
+                            <iframe
+                                src="https://www.youtube.com/embed/sjyONTaJNys?rel=0"
+                                title="2023 제10회 대한민국 SW 융합해커톤 루핑영상"
+                                loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="works-video-card__body">
+                            <p class="works-video-card__meta">PRODUCTION / CONTENT</p>
+                            <h3>2023 제10회 대한민국 SW 융합해커톤 | 루핑영상</h3>
+                        </div>
+                    </article>
+
+                    <article class="works-video-card reveal-up" data-category="content film">
+                        <div class="works-video-card__frame">
+                            <iframe
+                                src="https://www.youtube.com/embed/WCmcLIIXL5o?rel=0"
+                                title="2023 제4회 KDT 해커톤 수상영상 우수"
+                                loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="works-video-card__body">
+                            <p class="works-video-card__meta">CONTENT / FILM</p>
+                            <h3>2023 제4회 KDT 해커톤 | 수상영상_우수</h3>
+                        </div>
+                    </article>
+
+                    <article class="works-video-card reveal-up" data-category="production content">
+                        <div class="works-video-card__frame">
+                            <iframe
+                                src="https://www.youtube.com/embed/XTVNqvXPP4c?rel=0"
+                                title="2023 제10회 대한민국 SW 융합해커톤 UECO 입구아치 루핑영상"
+                                loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="works-video-card__body">
+                            <p class="works-video-card__meta">PRODUCTION / CONTENT</p>
+                            <h3>2023 제10회 대한민국 SW 융합해커톤 | UECO 입구아치 루핑영상</h3>
+                        </div>
+                    </article>
+
+                    <article class="works-video-card reveal-up" data-category="production content">
+                        <div class="works-video-card__frame">
+                            <iframe
+                                src="https://www.youtube.com/embed/Zb_Vz30Z32w?rel=0"
+                                title="2023 제4회 KDT 해커톤 시상식 루핑"
+                                loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="works-video-card__body">
+                            <p class="works-video-card__meta">PRODUCTION / CONTENT</p>
+                            <h3>2023 제4회 KDT 해커톤 | 시상식 루핑</h3>
+                        </div>
+                    </article>
+
+                    <article class="works-video-card reveal-up" data-category="production content">
+                        <div class="works-video-card__frame">
+                            <iframe
+                                src="https://www.youtube.com/embed/WfI38ZwtMnc?rel=0"
+                                title="2023 제10회 대한민국 SW 융합해커톤 카운트 퍼포먼스"
+                                loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="works-video-card__body">
+                            <p class="works-video-card__meta">PRODUCTION / CONTENT</p>
+                            <h3>2023 제10회 대한민국 SW 융합해커톤 | 카운트 퍼포먼스</h3>
+                        </div>
+                    </article>
+
+                    <article class="works-video-card reveal-up" data-category="content film">
+                        <div class="works-video-card__frame">
+                            <iframe
+                                src="https://www.youtube.com/embed/hvzGE_C78hI?rel=0"
+                                title="2023 제4회 KDT 해커톤 수상영상 대상"
+                                loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="works-video-card__body">
+                            <p class="works-video-card__meta">CONTENT / FILM</p>
+                            <h3>2023 제4회 KDT 해커톤 | 수상영상_대상</h3>
+                        </div>
+                    </article>
+
+                    <article class="works-video-card reveal-up" data-category="event film">
+                        <div class="works-video-card__frame">
+                            <iframe
+                                src="https://www.youtube.com/embed/n_rMqGzVstY?rel=0"
+                                title="2023 제10회 대한민국 SW 융합해커톤 오프닝영상"
+                                loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="works-video-card__body">
+                            <p class="works-video-card__meta">EVENT / FILM</p>
+                            <h3>2023 제10회 대한민국 SW 융합해커톤 | 오프닝영상</h3>
+                        </div>
+                    </article>
+
+                    <article class="works-video-card reveal-up" data-category="event film">
+                        <div class="works-video-card__frame">
+                            <iframe
+                                src="https://www.youtube.com/embed/SFMytQNi__I?rel=0"
+                                title="2023 제4회 KDT 해커톤 오프닝 영상"
+                                loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="works-video-card__body">
+                            <p class="works-video-card__meta">EVENT / FILM</p>
+                            <h3>2023 제4회 KDT 해커톤 | 오프닝 영상</h3>
+                        </div>
+                    </article>
+
+                    <article class="works-video-card reveal-up" data-category="production content">
+                        <div class="works-video-card__frame">
+                            <iframe
+                                src="https://www.youtube.com/embed/XuLFfwpHjF0?rel=0"
+                                title="2023 제10회 대한민국 SW 융합해커톤 루핑영상"
+                                loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="works-video-card__body">
+                            <p class="works-video-card__meta">PRODUCTION / CONTENT</p>
+                            <h3>2023 제10회 대한민국 SW 융합해커톤 | 루핑영상</h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-footer__inner">
+            <p class="site-footer__slogan">Handled to the End.</p>
+            <p class="site-footer__meta">2026 hamonius. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

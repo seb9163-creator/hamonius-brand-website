@@ -1,7 +1,0 @@
-# 원본 자료 폴더 제외
-Project/Brand-website/자료/
-
-# OS 파일
-.DS_Store
-Thumbs.db
-desktop.ini

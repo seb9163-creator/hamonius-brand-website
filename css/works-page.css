@@ -13,6 +13,33 @@
     margin: 0 auto;
 }
 
+.works-marquee {
+    position: relative;
+    overflow: hidden;
+    margin: 0 0 34px;
+    padding: 26px 0 24px;
+    border-top: 1px solid rgba(255, 255, 255, 0.28);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.28);
+}
+
+.works-marquee__track {
+    display: flex;
+    width: max-content;
+    gap: 44px;
+    animation: works-marquee-scroll 24s linear infinite;
+    will-change: transform;
+}
+
+.works-marquee__track span {
+    font-family: "Inter", "Noto Sans KR", sans-serif;
+    font-size: clamp(28px, 3vw, 42px);
+    font-weight: 400;
+    line-height: 1.05;
+    letter-spacing: -0.04em;
+    white-space: nowrap;
+    color: rgba(255, 255, 255, 0.94);
+}
+
 .works-grid-toolbar {
     display: flex;
     align-items: center;
@@ -156,6 +183,16 @@
     color: rgba(255, 255, 255, 0.58);
 }
 
+@keyframes works-marquee-scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(-50% - 22px));
+    }
+}
+
 @media (max-width: 1080px) {
     .works-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -174,6 +211,15 @@
 }
 
 @media (max-width: 640px) {
+    .works-marquee {
+        margin-bottom: 24px;
+        padding: 20px 0 18px;
+    }
+
+    .works-marquee__track {
+        gap: 28px;
+    }
+
     .works-grid-toolbar {
         align-items: flex-start;
         flex-direction: column;

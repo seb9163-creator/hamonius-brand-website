@@ -4,8 +4,83 @@
     color: #fff;
 }
 
+.page--works .site-header {
+    padding: 0;
+    background: rgba(0, 0, 0, 0.94);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    pointer-events: auto;
+}
+
+.page--works .site-header__shell {
+    width: 100vw;
+    max-width: none;
+    min-height: 78px;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    backdrop-filter: none;
+}
+
+.page--works .brand {
+    align-self: stretch;
+    min-width: 208px;
+    padding: 0 26px;
+    background: #f3f3f3;
+    display: inline-flex;
+    align-items: center;
+    border-right: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.page--works .brand__img--dark {
+    display: block;
+}
+
+.page--works .brand__img--light {
+    display: none;
+}
+
+.page--works .site-nav {
+    flex: 1;
+    justify-content: center;
+    gap: 28px;
+    padding: 0 28px;
+}
+
+.page--works .site-nav a,
+.page--works .site-header__utility,
+.page--works .menu-toggle {
+    font-family: "Outfit", "Noto Sans KR", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.page--works .site-nav a {
+    opacity: 1;
+}
+
+.page--works .site-nav a::after {
+    bottom: -23px;
+    height: 2px;
+}
+
+.page--works .site-header__utility {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    padding: 0 28px;
+    white-space: nowrap;
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+}
+
 .works-grid-section {
-    padding: 104px 0 110px;
+    padding: 78px 0 110px;
 }
 
 .works-grid-shell {
@@ -232,8 +307,12 @@
 }
 
 @media (max-width: 900px) {
+    .page--works .site-header__utility {
+        display: none;
+    }
+
     .works-grid-section {
-        padding: 94px 0 84px;
+        padding: 78px 0 84px;
     }
 
     .works-grid-shell {
@@ -246,6 +325,11 @@
 }
 
 @media (max-width: 640px) {
+    .page--works .brand {
+        min-width: 164px;
+        padding: 0 18px;
+    }
+
     .works-hero-media {
         margin-bottom: 22px;
         aspect-ratio: 16 / 9;

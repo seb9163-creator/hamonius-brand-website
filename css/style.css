@@ -291,6 +291,10 @@ video {
     align-items: end;
 }
 
+.page--home .hero__grid {
+    padding: 210px 0 72px;
+}
+
 .hero__copy {
     max-width: 760px;
 }
@@ -1162,6 +1166,10 @@ body.theme-light .site-footer {
     .hero__grid {
         width: min(1320px, calc(100vw - 28px));
         padding: 148px 0 110px;
+    }
+
+    .page--home .hero__grid {
+        padding: 176px 0 78px;
     }
 
     .container {

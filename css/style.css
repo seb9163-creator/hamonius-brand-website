@@ -255,6 +255,19 @@ video {
 
 .page--home .hero {
     min-height: 100vh;
+    padding-top: 100vh;
+    background: var(--bg-glow);
+    overflow: visible;
+}
+
+.page--home .hero__video,
+.page--home .hero__veil {
+    inset: 0 0 auto 0;
+    height: 100vh;
+}
+
+.page--home .hero__veil {
+    background: linear-gradient(180deg, rgba(4, 10, 67, 0.08) 0%, rgba(4, 10, 67, 0.28) 72%, rgba(2, 5, 36, 0.4) 100%);
 }
 
 .hero {
@@ -292,7 +305,9 @@ video {
 }
 
 .page--home .hero__grid {
-    padding: 210px 0 72px;
+    min-height: auto;
+    padding: 68px 0 120px;
+    align-items: start;
 }
 
 .hero__copy {
@@ -469,6 +484,10 @@ body.theme-light .body-copy {
     align-items: center;
     gap: 10px;
     color: rgba(255, 255, 255, 0.62);
+}
+
+.page--home .hero-scroll-indicator {
+    display: none;
 }
 
 .hero-scroll-indicator__line {
@@ -1169,7 +1188,7 @@ body.theme-light .site-footer {
     }
 
     .page--home .hero__grid {
-        padding: 176px 0 78px;
+        padding: 56px 0 92px;
     }
 
     .container {

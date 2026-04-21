@@ -5,6 +5,8 @@
 }
 
 body.page--works .site-header {
+    position: absolute;
+    inset: 0 0 auto 0;
     padding: 0;
     background: transparent;
     border-bottom: 1px solid rgba(255, 255, 255, 0.18);
@@ -18,6 +20,7 @@ body.page--works .site-header__shell {
     margin: 0;
     padding: 0;
     gap: 0;
+    justify-content: center;
     border: 0 !important;
     border-radius: 0;
     background: transparent !important;
@@ -27,8 +30,9 @@ body.page--works .site-header__shell {
 
 body.page--works .brand {
     align-self: stretch;
-    min-width: 208px;
+    min-width: 198px;
     padding: 0 26px;
+    margin-right: 26px;
     background: #fff;
     display: inline-flex;
     align-items: center;
@@ -44,10 +48,10 @@ body.page--works .brand__img--light {
 }
 
 body.page--works .site-nav {
-    flex: 1;
-    justify-content: center;
+    flex: 0 0 auto;
+    justify-content: flex-start;
     gap: 28px;
-    padding: 0 28px;
+    padding: 0;
 }
 
 body.page--works .site-nav a,
@@ -70,14 +74,8 @@ body.page--works .site-nav a::after {
     height: 2px;
 }
 
-body.page--works .site-header__utility {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    align-self: stretch;
-    padding: 0 28px;
-    white-space: nowrap;
-    border-left: 1px solid rgba(255, 255, 255, 0.16);
+body.page--works .menu-toggle {
+    margin-left: auto;
 }
 
 .works-grid-section {
@@ -308,8 +306,13 @@ body.page--works .site-header__utility {
 }
 
 @media (max-width: 900px) {
-    body.page--works .site-header__utility {
-        display: none;
+    body.page--works .site-header__shell {
+        justify-content: space-between;
+    }
+
+    body.page--works .brand {
+        min-width: 164px;
+        margin-right: 0;
     }
 
     .works-grid-section {
@@ -327,7 +330,6 @@ body.page--works .site-header__utility {
 
 @media (max-width: 640px) {
     body.page--works .brand {
-        min-width: 164px;
         padding: 0 18px;
     }
 

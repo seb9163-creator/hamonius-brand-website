@@ -92,7 +92,7 @@ body.page--works .menu-toggle {
     position: relative;
     overflow: hidden;
     width: 100vw;
-    margin: 0 0 24px calc(50% - 50vw);
+    margin: 0 0 52px calc(50% - 50vw);
     aspect-ratio: 16 / 9;
     background: #050505;
     border-top: 1px solid rgba(255, 255, 255, 0.08);
@@ -335,7 +335,7 @@ body.page--works .menu-toggle {
     }
 
     .works-hero-media {
-        margin-bottom: 22px;
+        margin-bottom: 36px;
         aspect-ratio: 16 / 9;
     }
 

@@ -510,16 +510,16 @@ body.theme-light .body-copy {
 .home-hero-copy__title {
     max-width: 900px;
     margin-top: 10px;
-    font-size: clamp(64px, 9vw, 150px);
-    line-height: 0.92;
-    letter-spacing: -0.055em;
+    font-size: clamp(46px, 6.8vw, 104px);
+    line-height: 0.94;
+    letter-spacing: -0.05em;
 }
 
 .home-hero-copy__subtitle {
     margin-top: 28px;
     max-width: 720px;
-    font-size: clamp(20px, 2.2vw, 30px);
-    line-height: 1.42;
+    font-size: clamp(18px, 1.5vw, 24px);
+    line-height: 1.5;
     color: rgba(223, 227, 244, 0.82);
 }
 
@@ -566,9 +566,9 @@ body.theme-light .body-copy {
 
 .home-statement .section-title {
     max-width: 1200px;
-    font-size: clamp(56px, 7.4vw, 122px);
-    line-height: 0.94;
-    letter-spacing: -0.06em;
+    font-size: clamp(40px, 5.3vw, 82px);
+    line-height: 0.96;
+    letter-spacing: -0.05em;
 }
 
 .home-statement .split-layout__body {
@@ -579,8 +579,8 @@ body.theme-light .body-copy {
 }
 
 .home-statement .body-copy {
-    font-size: clamp(18px, 1.7vw, 25px);
-    line-height: 1.6;
+    font-size: clamp(17px, 1.2vw, 21px);
+    line-height: 1.65;
 }
 
 .home-statement .insight-grid {
@@ -610,8 +610,8 @@ body.theme-light .body-copy {
 }
 
 .home-offer .section-title {
-    font-size: clamp(44px, 5.2vw, 88px);
-    line-height: 0.96;
+    font-size: clamp(34px, 3.9vw, 62px);
+    line-height: 0.98;
 }
 
 .home-offer .capability-grid {
@@ -637,8 +637,8 @@ body.theme-light .body-copy {
 }
 
 .home-offer .capability-card h3 {
-    font-size: clamp(28px, 2.2vw, 40px);
-    margin-top: 100px;
+    font-size: clamp(24px, 1.7vw, 32px);
+    margin-top: 84px;
     color: #fff;
 }
 
@@ -679,8 +679,8 @@ body.theme-light .body-copy {
 }
 
 .home-work-preview .section-title {
-    font-size: clamp(42px, 5vw, 86px);
-    line-height: 0.96;
+    font-size: clamp(34px, 4vw, 64px);
+    line-height: 0.98;
 }
 
 .home-work-preview .case-grid {
@@ -706,9 +706,8 @@ body.theme-light .body-copy {
 }
 
 .home-cta .cta-block__title {
-    font-size: clamp(48px, 6vw, 108px);
-    line-height: 0.94;
-}
+    font-size: clamp(38px, 4.6vw, 72px);
+    line-height: 0.98;
 }
 
 .hero-scroll-indicator__line {
